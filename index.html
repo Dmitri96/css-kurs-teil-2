@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio Webseite</title>
+        <link rel="icon" href="avatar.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="nav-list">
+                <li class="nav--list-item"><a href="#hobby">Hobbys</a> </li>
+                <li class="nav--list-item"><a href="#informations">Information</a> </li>
+                <li class="nav--list-item"><a href="#jobs">Berufserfahrung</a> </li>
+                <li class="nav--list-item"><a href="#contact">Kontakt</a> </li>
+            </ul>
+        </nav>
+    
+        <div class="container">
+            <div class="info card">
+                <img src="avatar.png" alt="Profilbild" class="avatar">
+                <h1>Max Mustermann</h1>
+                <p>Ich bin ein <strong>Webentwickler</strong></p>
+                <p>Programmieren ist meine Leidenschaft</p>
+               
+                <h4>Kontaktdaten</h4>
+                
+                <a href="mailto:abc@example.com" class="icon-links klasse2"><img src="email.png" alt="email"></a> 
+            
+                <a href="tel:+49123456789" class="icon-links"><img src="phone-call.png" alt="phone"></a>
+            
+                <a target="_blank" href="https://www.instagram.com/dimiweb_codeacademy" class="icon-links"><img src="instagram.png" alt="instagram"></a>
+        
+            </div>
+           
+            <div class="card bg-yellow" id="hobby">
+                <h2>Meine Hobbys</h2>
+                <ol class="hobby-list">
+                    <li>Reisen</li>
+                    <li>Sport</li>
+                    <li>Essen</li>
+                </ol>
+            </div>
+            
+            <div class="card bg-red" id="informations">
+                <h2>Zusätzliche Informationen</h2>
+                <a target="_blank" href="informations.html">Informationen</a>
+            </div>
+            
+            <div class="card bg-green" id="jobs">
+                <h2>Berufserfahrung</h2>
+                <table class="table">
+                
+                    <tbody>
+                        <tr>
+                            <td>Firma 1</td>
+                            <td>Frontend Entwickler</td>
+                            <td>2015-2016</td>
+                        </tr>
+                        <tr>
+                            <td>Firma 2</td>
+                            <td>Backend Entwickler</td>
+                            <td>2016-2018</td>
+                        </tr>
+                        <tr>
+                            <td>Firma 3</td>
+                            <td>Backend Entwickler</td>
+                            <td>2018-2019</td>
+                        </tr>
+                        <tr>
+                            <td>Firma 4</td>
+                            <td>Backend Entwickler</td>
+                            <td>2019-2021</td>
+                        </tr>
+                    </tbody>
+                </table>
+        
+            </div>
+            
+            <div>
+                <h2>Mein Lieblingsvideo</h2>
+                <video src="sample.mp4" controls></video>
+            </div>
+           
+            <div>
+                <h2>Meine Lieblingsmusik</h2>
+                <audio src="sound.mp3" controls></audio>
+            </div>
+            
+            <div class="contact" id="contact">
+                <h2>Kontakt</h2>
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Namen eingeben">
+                    </div>
+                    
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Email Adresse angeben">
+                    </div>
+                    
+                  
+                    <div class="form-group">
+                        <label for="message">Nachricht</label>
+                        <textarea id="message" cols="24" rows="5"></textarea>
+                    </div>
+                    
+        
+                    <button class="btn" type="submit">
+                        Absenden
+                    </button>
+                </form>
+            </div>
+            <!-- 
+                <div class="parent">
+                    <div class="child">
+                    1
+                    </div>
+                    <div class="child">
+                    2
+                    </div>
+                    <div class="child">
+                    3
+                    </div>
+                </div>
+            -->
+           
+
+        </div>
+        
+      
+    </body>
+</html>
